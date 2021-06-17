@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+body .container {
+  width: 30em;
+  max-width: 100%;
+}
+
+body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .row a {
+  text-decoration: none;
+  color: black;
+}
+
+body .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 1.7em;
+  margin-right: 2em;
+}
+
+body .swiper-container {
+  width: 90%;
+  height: 100%;
+}
+
+body h2 {
+  font-size: 2rem;
+}
+
+body .swiper-wrapper {
+  width: 100%;
+}
+
+body .review {
+  font-size: .8rem;
+}
+
+body .paris {
+  font-size: 2rem;
+}
+
+body .swiper-button-next::after {
+  color: gray;
+  font-size: 1.5rem !important;
+}
+/*# sourceMappingURL=style.css.map */
